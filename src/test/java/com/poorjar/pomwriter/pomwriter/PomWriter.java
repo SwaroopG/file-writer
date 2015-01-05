@@ -19,11 +19,11 @@ public class PomWriter {
 		while (input.hasNext()) {
 			String nextToken = input.next();
 			System.out.println("<dependency>");
-			System.out.println("<groupId>"+ nextToken +"</groupId>");
-			System.out.println("<artifactId>"+ nextToken +"</artifactId>");
-			System.out.println("<version>1.0</version>");
-			System.out.println("<scope>system</scope>");
-			System.out.println("<systemPath>/opt/darn/main/nfs/shared/lib/"+ nextToken +".jar</systemPath>");
+			System.out.println("  <groupId>"+ nextToken +"</groupId>");
+			System.out.println("  <artifactId>"+ nextToken +"</artifactId>");
+			System.out.println("  <version>1.0</version>");
+			System.out.println("  <scope>system</scope>");
+			System.out.println("  <systemPath>/opt/darn/main/nfs/shared/lib/"+ nextToken +".jar</systemPath>");
 			System.out.println("</dependency>");
 		}
 
