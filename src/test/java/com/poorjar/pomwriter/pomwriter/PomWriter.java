@@ -17,7 +17,7 @@ public class PomWriter {
 		Scanner input = new Scanner(jarsFile);
 
 		while (input.hasNext()) {
-			String nextToken = input.next();
+			String nextToken = input.next().trim();
 			System.out.println("<dependency>");
 			System.out.println("  <groupId>"+ nextToken +"</groupId>");
 			System.out.println("  <artifactId>"+ nextToken +"</artifactId>");
