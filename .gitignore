@@ -1,1 +1,13 @@
 /target/
+/pom-writer.iws
+/pom-writer.iml
+/pom-writer.ipr
+/.idea/
+/src/test/resources/output.txt
+/src/test/resources/finalICDGemFile.txt
+
+/bin/
+/.settings/
+/.classpath
+/.project
+/.idea
