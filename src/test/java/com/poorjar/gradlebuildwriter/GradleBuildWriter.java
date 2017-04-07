@@ -1,4 +1,4 @@
-package com.poorjar.gradle.gradlebuildwriter;
+package com.poorjar.gradlebuildwriter;
 
 import java.io.File;
 import java.io.FileNotFoundException;

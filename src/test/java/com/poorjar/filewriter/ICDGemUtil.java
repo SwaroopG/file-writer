@@ -1,4 +1,4 @@
-package com.poorjar.pomwriter.filewriter;
+package com.poorjar.filewriter;
 
 import org.junit.Test;
 

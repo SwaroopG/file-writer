@@ -1,4 +1,4 @@
-package com.poorjar.pomwriter.stringwriter;
+package com.poorjar.stringwriter;
 
 import org.junit.Test;
 

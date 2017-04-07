@@ -1,4 +1,4 @@
-package com.poorjar.pomwriter.pomwriter;
+package com.poorjar.pomwriter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
